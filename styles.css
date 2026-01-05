@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-image: url(Images/background-image1.jpeg);
+    background-size: cover;
+    background-position: center;
+    color: #d3c4c4;
+    padding: 20px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 35px;
+}
+
+#nav-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.logo {
+    width: 100px;
+    height: auto;
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+}
+
+#header-ul {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+    margin: 1rem;
+    padding: 0;
+}
+
+#header-ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 15px;
+}
+
+#header-ul li a {
+    text-decoration: none;
+    color: #f4f4f4;
+    font-weight: bold;
+}
+#header-ul li a:hover {
+    color: #007BFF;
+    content: " ";
+    width: 100%;
+    height: 2px;
+}
+
+/* main {
+    background-color: #96b7fa2f; 
+} */
+
+h1, h2, h3 {
+    color: #ffffff;
+}
+
+.intro {
+    text-align: justify;
+    margin-top: 50px;
+}
+
+.intro h1 {
+    font-size: 55px;
+    margin: 5px 0 8px 0;
+    line-height: normal;
+}
+.intro h1 span {
+    color: #007BFF;
+}
+
+.intro p {
+    font-size: 24px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}   
+
+.about-intro {
+    margin-top: 40px;
+    text-align: left;
+}
+.about-intro h2 {
+    margin-bottom: 15px;
+}
+
+.my-skills {
+    margin-top: 40px;
+}
+
+.skill-icon {
+    margin-top: 20px;
+    width: 40px;
+}
+
+.skills-icons {
+    display: inline-block;
+    margin: 10px;
+}
+
+.skills-icons img {
+    max-width: 150px;
+    max-height: 150px;
+}
+

@@ -1,0 +1,6 @@
+{
+    "editor.hover.enabled": "off",
+    "css.hover.documentation": true,
+    "css.hover.references": false,
+    "html.hover.references": false
+}
