@@ -8,6 +8,7 @@ body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
     background-image: url(Images/background-image1.jpeg);
+    background-color: #f4f4f4;
     background-size: cover;
     background-position: center;
     color: #d3c4c4;
@@ -116,3 +117,6 @@ h1, h2, h3 {
     max-height: 150px;
 }
 
+.my-services {
+    margin-top: 40px;
+}
