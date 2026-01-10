@@ -24,6 +24,9 @@ header {
 #nav-header {
     display: flex;
     justify-content: space-between;
+    position: fixed;
+    top: 0;
+    background-color: rgba(0, 0, 0);
     align-items: center;
     width: 100%;
 }
@@ -126,7 +129,6 @@ h1, h2, h3 {
 
 .skills-icon3 {
     display: grid;
-    position: relative;
     max-width: 100px;
     max-height: 200px;
 }
