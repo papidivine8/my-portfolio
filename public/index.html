@@ -5,10 +5,17 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>My Portfolio Site</title>
         <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="fanta.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.css" 
+        integrity="sha512-x9WwyMYBnlXMNQ6kQ/Lyzu1NqIhLQKL5Oq6xByfXuRj7s9CskyCbLv/1IjqzJmXwFXWr0ov6jBV7Qbc0hh9nHg==" 
+        crossorigin="anonymous" referrerpolicy="no-referrer">
     </head>
     <body>
         <header>
+            <a href="/"></a>
             <nav id="nav-header">
+                <a target="_blank" href="https://github.com/papidivine8"><i class="fa-brands fa-github"></i></a>
+                <a target="_blank" href="https://www.linkedin.com/in/divine-chilaka-0ab1ba426/"><i class="fa-brands fa-linkedin"></i></a>
                 <img src="Images/Random-logo.png" alt="Website logo" class="logo">
                 <ul id="header-ul">
                     <li><a href="/">Home</a></li>
@@ -23,18 +30,48 @@
             <section class="intro">
                 <h1>Hello,<br>My Name is <span>Divine</span></h1>
                 <p>Web2/Web3 Developer</p>
-                <button>Hire Me</button>
-                <button>Get CV</button>
-            </section>
-
-            <section class="about-intro">
                 <h2>A little about myself</h2>
-                <p>
+                <p id="about-intro">
                     So far my work has been focused on frontend, backend development
                     and API integrations,<br>building websites as a freelancer and maintaining them
                     I recently started exploring Web 3<br>technologies because of the rise and 
                     use of blockchain.
                 </p>
+                <div>
+                    <i class="fa-solid fa-arrow-right"></i>
+                    <button>
+                        <a href="mailto:divinechilaka8@gmail.com">Email Me</a>
+                    </button>
+                    <button>
+                        <a target="_blank" href=""></a>Get CV</a>
+                    </button>
+                </div>
+            </section>
+
+            <section>
+                <h2>Skills</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Area</th>
+                            <th>Technologies</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>JavaScript</td>
+                            <td>React | NextJs | Node | Express</td>
+                        </tr>
+                        <tr>
+                            <td>Python</td>
+                            <td>Django | Numpy</td>
+                        </tr>
+                        <tr>
+                            <td>Web</td>
+                            <td>Tailwind | PostgreSQL | Git | Docker</td>
+                        </tr>
+                    </tbody>
+                </table>
             </section>
 
             <section class="my-skills">
@@ -62,6 +99,91 @@
                         include HTML, CSS, JavaScript. I'm constantly learning and staying updated 
                         with the latest tools in and outside web development.
                     </p>
+                </div>
+            </section>
+
+            <section>
+                <h2>Latest Projects</h2>
+                <div class="cards-grid">
+                    <div class="project-card">
+                        <div>
+                            <p>August 1st 2026</p>
+                            <h4>Project Name</h4>
+                            <div class="tech-list">
+                                <div class="card-button-secondary">
+                                    <p>Next JS</p>
+                                </div>
+                                <div class="card-button-secondary">
+                                    <p>Next JS</p>
+                                </div>
+                                <div class="card-button-secondary">
+                                    <p>Next JS</p>
+                                </div>
+                            </div>
+                            <p>This site does this site things.</p>
+                            <div class="project-links">
+                                <a target="_blank" href="/">Live</a>
+                                <a target="_blank" href="/">GitHub</a>
+                            </div>
+                            <div>
+                                <img class="big-img" src="" alt="project alt desc.">
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="project-card">
+                        <div>
+                            <p>August 15th 2026</p>
+                            <h4>Project Name</h4>
+                            <div class="tech-list">
+                                <div class="card-button-secondary">
+                                    <p>Next JS</p>
+                                </div>
+                                <div class="card-button-secondary">
+                                    <p>Next JS</p>
+                                </div>
+                                <div class="card-button-secondary">
+                                    <p>Next JS</p>
+                                </div>
+                            </div>
+                            <p>This site does this site things.</p>
+                            <div class="project-links">
+                                <a target="_blank" href="/">Live</a>
+                                <a target="_blank" href="/">GitHub</a>
+                            </div>
+                            <div>
+                                <img class="big-img" src="" alt="project alt desc.">
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="project-card">
+                        <div>
+                            <p>September 15th 2026</p>
+                            <h4>Project Name</h4>
+                            <div class="tech-list">
+                                <div class="card-button-secondary">
+                                    <p>Next JS</p>
+                                </div>
+                                <div class="card-button-secondary">
+                                    <p>Next JS</p>
+                                </div>
+                                <div class="card-button-secondary">
+                                    <p>Next JS</p>
+                                </div>
+                            </div>
+                            <p>This site does this site things.</p>
+                            <div class="project-links">
+                                <a target="_blank" href="/">Live</a>
+                                <a target="_blank" href="/">GitHub</a>
+                            </div>
+                            <div>
+                                <img class="big-img" src="" alt="project alt desc.">
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </section>
 
@@ -112,6 +234,7 @@
 
         <footer>
             <p>&copy; 2026 My Portfolio Site</p>
+            <p>By <a>Divine</a></p>
         </footer>
     </body>
 </html>

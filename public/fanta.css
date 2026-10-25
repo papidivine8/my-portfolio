@@ -191,7 +191,7 @@ span {
 
 /* Content Sectioning */
 
-main {}
+/*main {}
 
 header {}
 
@@ -200,6 +200,7 @@ footer {}
 nav {}
 
 section {}
+*/
 
 address {
     font-style: normal;
@@ -243,13 +244,13 @@ dd {
     padding-bottom: 11px;
 }
 
-dl {}
+/*dl {}*/
 
 dt {
     font-weight: bold;
 }
 
-figure {}
+/*figure {}*/
 
 figcaption {
     padding-top: 10px;
@@ -417,13 +418,13 @@ tbody tr:nth-child(even):hover td {
 }
 
 /* Form elements */
-input,
+/* input,
 button,
 select,
 optgroup,
 textarea {
-    /* margin: 0; */
-}
+}    /* margin: 0; */
+
 
 button,
 select,
