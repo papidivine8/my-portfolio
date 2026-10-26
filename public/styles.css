@@ -7,6 +7,9 @@
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
     background-image: url(Images/responsive_img.jpeg);
     background-color: #f4f4f4;
     background-size: cover;
@@ -15,11 +18,15 @@ body {
     padding: 20px;
 }
 
-header {
-    display: flex;
+header, main, footer {
+    max-width: 600px;
+    width: 100%;
+    margin: 0 auto;
+}
+/*    display: flex;
     align-items: center;
     margin-bottom: 35px;
-}
+}*/
 
 #nav-header {
     display: flex;
